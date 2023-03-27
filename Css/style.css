@@ -131,8 +131,12 @@ img{
 
 .myslides{
     position: relative;
-    /* display: none; */
+    display: none;
     padding-top: 130px;
+}
+
+.myslides.activeSlide{
+    display: block;
 }
 
 
@@ -294,7 +298,7 @@ animation-name: slideInRight;
     animation-name: slideInRight
 }
 
-.fadeInLeft{
+/* .fadeInLeft{
     animation-name: fadeInleft;
 }
 .fadeInUp{
@@ -305,7 +309,7 @@ animation-name: slideInRight;
 }
 .fadeInUp{
     animation-name: slideInRight;
-}
+} */
 
 @keyframes fadeInUp{
     from{
